@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class Demo {
+public class App{
     public static void main(String []args){
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-        double b=a*a;
+        int b=4*a;
         System.out.println(b);
     }
-} 
+}
