@@ -1,0 +1,5 @@
+public class AddressPrinter {
+    public static void main(String[] args) {
+        System.out.println("Sakthivel\n123 Main Street\nCoimbatore, Tamil Nadu\nIndia");
+    }
+}
