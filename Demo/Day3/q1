@@ -4,7 +4,9 @@ public class Demo {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-        int d=(a+b+c)/3;
-        System.out.println(d);
+        if(a>b)
+            System.out.println(a+" a is greater");
+        else
+        System.out.println(b+" b is greater");
     }
 } 

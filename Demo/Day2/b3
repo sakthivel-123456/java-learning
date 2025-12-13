@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Demo {
+    public static void main(String []args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int a1=a/100;
+        int a2=a*100;
+        if(a1==a2)
+            System.out.println("first two digits and last two digits are same");
+        else
+            System.out.println("first two digits and last two digits are not same");
+    }
+}

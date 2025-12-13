@@ -4,7 +4,12 @@ public class Demo {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-        int d=(a+b+c)/3;
-        System.out.println(d);
+        int c=a*b;
+        if(c>0)
+            System.out.println("positive");
+    else if(c<0)
+        System.out.println("negative");
+    else
+        System.out.println("zero");
     }
-} 
+}

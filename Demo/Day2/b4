@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Demo {
+    public static void main(String []args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int a1=a%100;
+        int a2=b*100;
+        if(a1==a2)
+            System.out.println("two given years have the same last digits");
+        else
+            System.out.println("two given years have not the same last digits");
+    }
+}
