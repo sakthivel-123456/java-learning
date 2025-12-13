@@ -3,9 +3,9 @@ public class App{
     public static void main(String []args){
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-        if(a>=10)
-            System.out.println("valiid number");
+        if(a>100)
+            System.out.println("speed exceeds 100 km/h");
         else
-        System.out.println("invalid number");
+        System.out.println("speed is within the limit");
     }
 }

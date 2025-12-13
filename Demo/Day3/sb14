@@ -3,9 +3,14 @@ public class App{
     public static void main(String []args){
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-        if(a>=10)
-            System.out.println("valiid number");
-        else
-        System.out.println("invalid number");
+        int b;
+        if(a<12)
+        b=50;
+        else if(a>=60)
+            b=70;
+        else{
+            b=100;
+        }
+        System.out.println(b);
     }
 }
